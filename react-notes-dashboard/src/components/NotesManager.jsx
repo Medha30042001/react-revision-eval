@@ -7,9 +7,9 @@ import NotesStats from './NotesStats';
 const NotesManager = () => {
 
     const [notes, setNotes] = useState([
-        {id : 1, note : 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa'},
-        {id : 2, note : 'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'},
-        {id : 3, note : 'ccccccccccccccccccccccccccccccccc'}
+        {id : 1, note : 'Hooks can only be called inside React function components.'},
+        {id : 2, note : 'Hooks can only be called at the top level of a component.'},
+        {id : 3, note : 'Hooks cannot be conditional'}
     ]);
 
     const addNote = (para) => {
